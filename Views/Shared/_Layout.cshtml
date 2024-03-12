@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @* <title>@ViewData["Title"] - StaycationHotel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/StaycationHotel.styles.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="css/task.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    @* <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">StaycationHotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header> *@
+    <div class="header">
+        <div class="Staycation">
+            <p><span>Stay</span>cation.</p>
+        </div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">BrowseBy</a>
+            <a href="">Stories</a>
+            <a href="">Agents</a>
+            <a asp-controller="Auth" asp-action="SignUp">Register</a>
+            <a asp-controller="Auth" asp-action="LogIn">LogIn</a>
+            <a href=""></a>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+    
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - StaycationHotel - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+        <div class="Conclusion">
+            <div class="C1">
+                <p1>
+                    Stay<span>cation.</span></p>
+                    <p2>We kaboom your beauty holiday<br>instantly and memorable.</p>
+            </div>
+            <div class="C2">
+                <p1>
+                    For Beginners</p>
+                    <p2>New Account<br>Start Booking a Room<br>Use Payments</p>
+            </div>
+            <div class="C3">
+                <p1>
+                    Explore Us</p>
+                    <p2>Our Careers<br>Privacy<br>Terms & Conditions</p>
+            </div>
+            <div class="C4">
+                <p1>
+                    Connect Us</p>
+                    <p2>support@staycation.id<br>021- 2208- 1996<br>Staycation, Kemang, Jakarta</p>
+            </div>
+        </div>
+        <div class="LastBlock">
+            <p>Copyright 2019 . All rights reserved . Staycation</p>
+        </div>
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> *@
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿
+@model StaycationHotel.Models.LoginViewModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Register.css">
+    <link rel="stylesheet" href="/css/task.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Booking">
+        <p><b>Login Page </b><br><span>Please fill up the blank fields below</span></br></p>
+        @if (!String.IsNullOrEmpty(Model.Message))
+        {
+            <p style="color:red; font-size:20px; margin-top:-20px;">@Model.Message</p>
+        }
+    </div>
+    <div class="PicForm">
+        <div class="pic">
+            <img src="/images/Lr3.png" alt="photo">
+        </div>
+        <div class="Form">
+            <form action="Login" method="post">
+                <p>
+                    <input asp-for="@Model.User.Email" type="text" name="Email" placeholder="Enter Email" required>
+                </p>
+                <p>
+                    <input asp-for="@Model.User.Password" type="password" name="Password" placeholder="Enter Password" required>
+                </p>
+                <p>
+                    <input type="submit" value="Login">
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

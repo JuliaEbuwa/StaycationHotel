@@ -1,0 +1,40 @@
+﻿
+.Booking
+{
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.Booking p {
+    font-size: 22px;
+    font-family: poppins;
+    color: #152C5B;
+    text-align: center;
+}
+
+.Booking span {
+    font-size: 15px;
+    color: #B0B0B0;
+    text-align: center;
+}
+
+.PicForm {
+    height: 400px;
+    width: 100%;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.pic {
+    margin-left: 380px;
+}
+
+.Form {
+    margin-right: 380px;
+}

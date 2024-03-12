@@ -1,0 +1,906 @@
+﻿.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+body {
+    margin: 0%;
+}
+
+.menu {
+    margin-right: 100px;
+    background-color: red;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #152C5B;
+    font-family: poppins;
+    padding-right: 8px;
+}
+
+.Staycation p {
+    margin-left: 100px;
+    font-size: 25px;
+    color: #152C5B;
+    font-family: poppins;
+}
+
+.Staycation span {
+    color: #3252DF
+}
+
+.Home {
+    height: 50px;
+    width: 400px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.Forget {
+    height: 400px;
+    width: 1070px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BusyWork {
+    height: 350px;
+    width: 500px;
+    border-radius: 23px;
+    margin-top: -40px;
+}
+
+.BW h1 {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.BW p {
+    font-family: poppins;
+    color: #B0B0B0;
+}
+
+.ShowMeNow a {
+    text-decoration: none;
+    border: 1px solid #3252DF;
+    padding: 15px 40px 15px 25px;
+    background-color: darkred;
+    color: white;
+    font-family: poppins;
+    border-radius: 5px;
+}
+
+.ShowMeNow {
+    margin-top: 60px;
+}
+
+.Direction {
+    height: 50px;
+    width: 350px;
+    background-color:;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Travelers img {
+    height: 20px;
+    width: 20px;
+    background-color:;
+}
+
+.Travelers p {
+    font-family: poppins;
+    font-size: 10px;
+    color: #152C5B;
+}
+
+.Travelers Span {
+    color: #B0B0B0;
+}
+
+.Treasure img {
+    height: 20px;
+    width: 20px;
+    background-color:;
+}
+
+.Treasure p {
+    font-family: poppins;
+    font-size: 10px;
+    color: #152C5B;
+}
+
+.Treasure Span {
+    color: #B0B0B0;
+}
+
+.Cities img {
+    height: 20px;
+    width: 20px;
+}
+
+.Cities p {
+    font-family: poppins;
+    font-size: 10px;
+    color: #152C5B;
+}
+
+.Cities Span {
+    color: #B0B0B0;
+}
+
+.ForgetSidePic img {
+    height: 350px;
+    width: 500px;
+    border-radius: 90px 23px 23px 23px;
+}
+
+.Mpicked {
+    height: 50px;
+    width: 1070px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.Mpicked p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #152C5B;
+}
+
+.MostPicked {
+    height: 350px;
+    width: 1070px;
+    margin-left: 100px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-b1 {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-b2 {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Image-One img {
+    height: 350px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 23px;
+}
+
+.Image-One {
+    height: 350px;
+    width: 300px;
+    position: relative;
+}
+
+.blue {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.blue p {
+    color: white;
+    font-family: poppins;
+}
+
+.blue Span {
+    font-size: 12px;
+}
+
+.night1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.night1 p {
+    font-family: poppins;
+    font-size: 11px;
+}
+
+.Image-Two img {
+    height: 160px;
+    width: 350px;
+    border-radius: 23px;
+}
+
+.Image-Two {
+    height: 350px;
+    width: 300px;
+    position: relative;
+}
+
+.night2 {
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.night2 p {
+    font-family: poppins;
+    font-size: 11px;
+}
+
+.Ocean {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.Ocean p {
+    color: white;
+    font-family: poppins;
+}
+
+.Ocean Span {
+    font-size: 12px;
+}
+
+.Image-Three img {
+    height: 160px;
+    width: 350px;
+    border-radius: 23px;
+}
+
+.night3 {
+    position: absolute;
+    bottom: 123.5px;
+    right: 373.5px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.night3 p {
+    font-family: poppins;
+    font-size: 11px;
+}
+
+.Vinna {
+    position: absolute;
+    bottom: 10px;
+    left: 370px;
+}
+
+.Vinna p {
+    color: white;
+    font-family: poppins;
+}
+
+.Vinna Span {
+    font-size: 12px;
+}
+
+.Image-Four img {
+    height: 160px;
+    width: 350px;
+    border-radius: 23px;
+}
+
+.Stark {
+    position: absolute;
+    top: 75px;
+    right: 230px;
+}
+
+    .Stark p {
+        color: white;
+        font-family: poppins;
+    }
+
+    .Stark Span {
+        font-size: 12px;
+    }
+
+.night4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.night4 p {
+    font-family: poppins;
+    font-size: 11px;
+}
+
+.Image-Five img {
+    height: 160px;
+    width: 350px;
+    border-radius: 23px;
+}
+
+.Bobox {
+    position: absolute;
+    bottom: 13px;
+    right: 230px;
+}
+
+.Bobox p {
+    color: white;
+    font-family: poppins;
+}
+
+.Bobox Span {
+    font-size: 12px;
+}
+
+.night5 {
+    position: absolute;
+    bottom: 125px;
+    right: 0px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.night5 p {
+    font-family: poppins;
+    font-size: 11px;
+}
+
+.Backyard {
+    height: 50px;
+    width: 1070px;
+    margin-top: 400px;
+    margin-left: 90px;
+}
+
+.Backyard p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #152C5B;
+}
+
+.BeautyBackyard {
+    height: 230px;
+    width: 1070px;
+    margin-top: 0px;
+    margin-left: 90px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Beauty-One img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Beauty-One p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Beauty-One span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.PC1 {
+    position: absolute;
+    top: -1.5px;
+    left: 117px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.PC1 p {
+    font-family: poppins;
+    color: white;
+    font-size: 12px;
+}
+
+.PC1 span {
+    color: #B0B0B0;
+}
+
+.Beauty-Two img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Beauty-Two p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Beauty-Two Span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Beauty-Three img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Beauty-Three p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Beauty-Three Span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Beauty-Four img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Beauty-Four p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Beauty-Four Span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Living {
+    height: 40px;
+    width: 1070px;
+    margin-top: 280px;
+    margin-left: 90px;
+}
+
+.Living p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #152C5B;
+}
+
+.LivingRoom {
+    height: 270px;
+    width: 1070px;
+    margin-top: 0px;
+    margin-left: 90px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Lr1 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Lr1 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Lr1 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Lr2 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Lr2 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Lr2 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Lr3 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Lr3 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Lr3 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Lr4 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Lr4 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Lr4 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.PC2 {
+    position: absolute;
+    top: 18.5px;
+    right: 0px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.PC2 p {
+    font-family: poppins;
+    color: white;
+    font-size: 12px;
+}
+.PC2 span {
+    color: #B0B0B0;
+ }
+
+.Kitchen {
+    height: 40px;
+    width: 1070px;
+    margin-top: 300px;
+    margin-left: 90px;
+}
+
+.Kitchen p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #152C5B;
+}
+
+.KitchenSet {
+    height: 270px;
+    width: 1070px;
+    margin-top: 0px;
+    margin-left: 90px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Kitchen1 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Kitchen1 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Kitchen1 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Kitchen2 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Kitchen2 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Kitchen2 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.Kitchen3 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Kitchen3 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Kitchen3 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.PC3 {
+    position: absolute;
+    top: 18.5px;
+    right: 281px;
+    border: 1px solid #FF498B;
+    background-color: #FF498B;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.PC3 p {
+    font-family: poppins;
+    color: white;
+    font-size: 12px;
+}
+
+.PC3 span {
+     color: #B0B0B0;
+}
+
+.Kitchen4 img {
+    height: 150px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.Kitchen4 p {
+    font-family: poppins;
+    color: #152C5B;
+}
+
+.Kitchen4 span {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+.HappyFamily {
+    height: 460px;
+    width: 1120px;
+    margin-top: 300px;
+    margin-left: 90px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Family1 img {
+    height: 400px;
+    width: 300px;
+    border-radius: 23px 23px 90px 23px;
+}
+
+.Family2 {
+    height: 400px;
+    width: 750px;
+    border-radius: 23px;
+}
+
+.Family2 p1 {
+    font-family: poppins;
+    font-size: 15px;
+    color: #152C5B;
+}
+
+.Family2 p2 {
+    font-family: poppins;
+    font-size: 20px;
+    color: #152C5B;
+}
+
+.Family2 p3 {
+    font-family: poppins;
+    font-size: 12px;
+    color: #B0B0B0;
+}
+
+.story a {
+    text-decoration: none;
+    border: 1px solid #3252DF;
+    padding: 15px 40px 15px 25px;
+    background-color: #3252DF;
+    color: white;
+    font-family: poppins;
+    border-radius: 5px;
+}
+
+.Conclusion {
+    height: 200px;
+    width: 1070px;
+    margin-top: 850px;
+    margin-left: 90px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.C1 {
+    height: 180px;
+    width: 340px;
+    border-radius: 23px;
+}
+
+.C1 p1 {
+    font-family: poppins;
+    font-size: 22px;
+    color: #3252DF;
+}
+
+.C1 span {
+    color: #B0B0B0;
+}
+
+.C1 p2 {
+    font-family: poppins;
+    font-size: 14px;
+    color: #B0B0B0;
+}
+
+.C2 {
+    height: 180px;
+    width: 200px;
+    border-radius: 23px;
+}
+
+.C2 p1 {
+    font-family: poppins;
+    font-size: 16px;
+    color: #3252DF;
+}
+
+.C2 p2 {
+    font-family: poppins;
+    font-size: 14px;
+    color: #B0B0B0;
+}
+
+.C3 {
+    height: 180px;
+    width: 200px;
+    border-radius: 23px;
+}
+
+.C3 p1 {
+    font-family: poppins;
+    font-size: 16px;
+    color: #3252DF;
+}
+
+.C3 p2 {
+    font-family: poppins;
+    font-size: 14px;
+    color: #B0B0B0;
+}
+
+.C4 {
+    height: 180px;
+    width: 230px;
+    border-radius: 23px;
+}
+
+.C4 p1 {
+    font-family: poppins;
+    font-size: 16px;
+    color: #3252DF;
+}
+
+.C4 p2 {
+    font-size: 14px;
+    color: #B0B0B0;
+}
+
+.LastBlock {
+    height: 40px;
+    width: 100%;
+    margin-top: 310px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    background-color:;
+    margin-top: 1000px;
+}
+
+.LastBlock p{
+    font-family: poppins;
+    color: #B0B0B0;
+}
+.Booking{
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.Booking p{
+        font-size: 22px;
+        font-family: poppins;
+        color: #152C5B;
+        text-align: center;
+}
+.Booking span{
+    font-size: 15px;
+    color: #B0B0B0;
+    text-align: center;
+}
+
+.PicForm{
+    height: 400px;
+    width: 100%;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.pic{
+    margin-left: 380px;
+}
+
+.Form{
+    margin-right: 380px;
+}
